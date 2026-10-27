@@ -1,0 +1,66 @@
+{
+  "mode": "Built-in image_gen",
+  "transparent_background": true,
+  "prompts": [
+    {
+      "productID": "blackTea",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one elegant clear Turkish tulip-shaped tea glass containing deep amber black tea, small ivory saucer. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges, detailed realistic materials. Three-quarter front view, centered, square composition, whole object completely visible with generous 12 percent clear margins. Single isolated product, transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Match the approachable warm illustrated coffee and cookie cutouts of a cafe ordering application."
+    },
+    {
+      "productID": "greenTea",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one ivory ceramic teacup of pale green tea on a small matching saucer with two green tea leaves beside it. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "chamomileTea",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one clear glass cup of golden chamomile herbal tea with two small chamomile flowers beside the cup. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "cheesecake",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one triangular slice of vanilla cheesecake with thin biscuit base, glossy red berry topping and one strawberry. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "brownieDessert",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one thick square chocolate brownie with a shiny crackled top and visible chocolate chunks. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "tiramisu",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one square individual tiramisu slice, visible alternating mascarpone and espresso soaked layers, dusted cocoa top. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "croissant",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one golden flaky butter croissant with crisp laminated layers. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "cheeseToast",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one grilled cheese toast sandwich cut diagonally with golden toasted bread and a little melted cheese visible. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "fries",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one modest serving of golden french fries in a plain kraft brown paper cup. Semi-realistic appetizing food cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "espresso",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one small ivory espresso cup on a matching saucer, containing a short rich dark espresso with golden crema. Semi-realistic appetizing product cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "latte",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one tall clear handled latte glass on a small ivory saucer, visible espresso and warm milk layers with fine milk foam. Semi-realistic appetizing product cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "mocha",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one ivory ceramic mug of chocolate mocha coffee with a small neat swirl of whipped cream and a light cocoa dusting. Semi-realistic appetizing product cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "coldBrew",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one tall clear straight glass of dark black cold brew coffee with distinct ice cubes, no milk. Semi-realistic appetizing product cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "icedVanilla",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one clear tall glass of iced vanilla latte, creamy milk and espresso swirls with visible ice, a small vanilla pod beside the glass. Semi-realistic appetizing product cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    },
+    {
+      "productID": "icedHazelnut",
+      "prompt": "Use case: product-mockup. Asset type: transparent product illustration for CookieCup iOS cafe menu. Subject: one clear tall glass of iced hazelnut coffee with cream colored milk and espresso swirls, visible ice, two hazelnuts beside the glass. Semi-realistic appetizing product cutout, warm cafe brown and cream palette, soft 3D product illustration with subtle outlined edges and detailed realistic materials. Three-quarter front view, centered square composition, whole object visible with generous 12 percent clear margins. Single isolated product, truly transparent background, no backdrop or floor, no text, no logo, no frame, no watermark. Consistent warm illustrated style of cafe coffee cups and cookie cutouts."
+    }
+  ]
+}

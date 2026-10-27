@@ -1,0 +1,115 @@
+{
+  "products": [
+    {
+      "id": "doubleChocolate",
+      "original": "k1.png",
+      "asset": "k1"
+    },
+    {
+      "id": "brownie",
+      "original": "k2.png",
+      "asset": "k2"
+    },
+    {
+      "id": "chocolateChip",
+      "original": "k3.png",
+      "asset": "k3"
+    },
+    {
+      "id": "butter",
+      "original": "k4.png",
+      "asset": "k4"
+    },
+    {
+      "id": "almond",
+      "original": "k5.png",
+      "asset": "k5"
+    },
+    {
+      "id": "pecan",
+      "original": "k6.png",
+      "asset": "k6"
+    },
+    {
+      "id": "hazelnut",
+      "original": "k7.png",
+      "asset": "k7"
+    },
+    {
+      "id": "walnut",
+      "original": "k8.png",
+      "asset": "k8"
+    },
+    {
+      "id": "cappuccino",
+      "original": "caffe5.png",
+      "asset": "caffe5"
+    },
+    {
+      "id": "americano",
+      "original": "caffe9.png",
+      "asset": "caffe9"
+    },
+    {
+      "id": "creamCoffee",
+      "original": "caffe2.png",
+      "asset": "caffe2"
+    },
+    {
+      "id": "takeaway",
+      "original": "caffecup.png",
+      "asset": "caffecup"
+    },
+    {
+      "id": "icedLatte",
+      "original": "caffe/coldcaffe1.png",
+      "asset": "coldcaffe1"
+    },
+    {
+      "id": "icedCoffee",
+      "original": "caffe/coldcaffe2.png",
+      "asset": "coldcaffe2"
+    },
+    {
+      "id": "icedCaramel",
+      "original": "caffe4.png",
+      "asset": "caffe4"
+    },
+    {
+      "id": "icedMocha",
+      "original": "caffe6.png",
+      "asset": "caffe6"
+    },
+    {
+      "id": "cola",
+      "original": "cocacola.png",
+      "asset": "cocacola"
+    },
+    {
+      "id": "fantaOrange",
+      "original": "fanta_orange.png",
+      "asset": "fanta_orange"
+    },
+    {
+      "id": "fantaLemon",
+      "original": "fanta_limon.png",
+      "asset": "fanta_limon"
+    },
+    {
+      "id": "sprite",
+      "original": "sprite.png",
+      "asset": "sprite"
+    },
+    {
+      "id": "pepsi",
+      "original": "pepsi.png",
+      "asset": "pepsi"
+    },
+    {
+      "id": "burger",
+      "original": "Bottle/burger_by_jujoy1990_deo0m1z.png",
+      "asset": "burger_by_jujoy1990_deo0m1z"
+    }
+  ],
+  "note": "Names based on visual inspection; recipes require caf\u00e9 approval. Existing JSON contained references to missing files; those references are not used."
+}

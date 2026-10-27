@@ -1,0 +1,1 @@
+37 unique products. All asset references and product-specific coffee descriptions checked in TR/DE/EN. Six new transparent coffee images visually inspected. Prior 31 product entries retained. Update installer and backups tested. Xcode 14.2 build and Simulator verification unavailable in this Linux environment.

@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "filename": "menu_chocolateCroissant.png",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

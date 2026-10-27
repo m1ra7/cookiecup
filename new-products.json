@@ -1,0 +1,95 @@
+{
+  "products": [
+    {
+      "id": "blackTea",
+      "asset": "black_tea",
+      "category": "tea",
+      "samplePriceCents": 250
+    },
+    {
+      "id": "greenTea",
+      "asset": "green_tea",
+      "category": "tea",
+      "samplePriceCents": 290
+    },
+    {
+      "id": "chamomileTea",
+      "asset": "chamomile_tea",
+      "category": "tea",
+      "samplePriceCents": 310
+    },
+    {
+      "id": "cheesecake",
+      "asset": "berry_cheesecake",
+      "category": "desserts",
+      "samplePriceCents": 590
+    },
+    {
+      "id": "brownieDessert",
+      "asset": "chocolate_brownie",
+      "category": "desserts",
+      "samplePriceCents": 450
+    },
+    {
+      "id": "tiramisu",
+      "asset": "tiramisu",
+      "category": "desserts",
+      "samplePriceCents": 580
+    },
+    {
+      "id": "croissant",
+      "asset": "butter_croissant",
+      "category": "snacks",
+      "samplePriceCents": 320
+    },
+    {
+      "id": "cheeseToast",
+      "asset": "cheese_toast",
+      "category": "snacks",
+      "samplePriceCents": 490
+    },
+    {
+      "id": "fries",
+      "asset": "fries",
+      "category": "snacks",
+      "samplePriceCents": 390
+    },
+    {
+      "id": "espresso",
+      "asset": "espresso",
+      "category": "coffee",
+      "samplePriceCents": 280
+    },
+    {
+      "id": "latte",
+      "asset": "latte",
+      "category": "coffee",
+      "samplePriceCents": 420
+    },
+    {
+      "id": "mocha",
+      "asset": "mocha",
+      "category": "coffee",
+      "samplePriceCents": 490
+    },
+    {
+      "id": "coldBrew",
+      "asset": "cold_brew",
+      "category": "coldCoffee",
+      "samplePriceCents": 470
+    },
+    {
+      "id": "icedVanilla",
+      "asset": "iced_vanilla_latte",
+      "category": "coldCoffee",
+      "samplePriceCents": 520
+    },
+    {
+      "id": "icedHazelnut",
+      "asset": "iced_hazelnut_coffee",
+      "category": "coldCoffee",
+      "samplePriceCents": 540
+    }
+  ],
+  "note": "New AI-generated illustrative product images, not photographs of actual cafe inventory. Descriptions are sample menu copy; recipes, allergens and prices need cafe confirmation."
+}

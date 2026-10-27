@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005540C0D703A09706F1A78E /* CookieCup/Services/AccountStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FD5FE9CD3C6A97A6E26ED3 /* CookieCup/Services/AccountStore.swift */; };
+		02BF2CB2EA0029C1718CA78B /* CookieCup/Extensions/Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875361BA7D827746609D6D43 /* CookieCup/Extensions/Localization.swift */; };
+		082146442C264EFF7FD7E8DD /* CookieCup/Services/Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3BF3379DA4AF796700BA18 /* CookieCup/Services/Persistence.swift */; };
+		0CBD9E9F28156A7756FA8B7B /* CookieCup/Views/Profile/AccountSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F22B8F7533FCC3A130EE264 /* CookieCup/Views/Profile/AccountSettingsView.swift */; };
+		112980041265E5CC6B6B58B2 /* CookieCup/Views/Menu/MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0166B7F89D7E4226D27866 /* CookieCup/Views/Menu/MenuView.swift */; };
+		122F6196FC67908CF19AEC81 /* CookieCup/Components/CachedProductImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF660566A0E387A25630A604 /* CookieCup/Components/CachedProductImage.swift */; };
+		1924A51E4E8617B4380B442C /* CookieCup/Components/Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5484EB6D5E134C5B298B5A0B /* CookieCup/Components/Theme.swift */; };
+		1FDA810838B34E8C4A977697 /* CookieCup/ViewModels/ShopStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521DAF022BFC9F91074DB057 /* CookieCup/ViewModels/ShopStore.swift */; };
+		25DE92FB3DB827CBBF96C907 /* CookieCup/Views/Product/ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30FF7185B944CE28BA98D4 /* CookieCup/Views/Product/ProductDetail.swift */; };
+		2868CF08DE428234E62A59A8 /* CookieCup/Views/Profile/NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06FF134F599063B7ACDAE07 /* CookieCup/Views/Profile/NotificationsView.swift */; };
+		2913C4135F3619FFD1DFF13F /* CookieCup/Views/Profile/LegalSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712F85F16CE8258C48AA7B0 /* CookieCup/Views/Profile/LegalSettingsView.swift */; };
+		339AE668DECE8AE50A39BE81 /* CookieCup/Data/Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A012EF75BFD5DC0F5FCE6A91 /* CookieCup/Data/Catalog.swift */; };
+		36E335C4DFB4FA7A633922FC /* CookieCup/Localization/en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2760F0D1CF80AEB3DAFB013B /* CookieCup/Localization/en.lproj */; };
+		3B94700A8482C67FEB6F5602 /* CookieCup/Views/Profile/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66027EB02346B7547E96DB8 /* CookieCup/Views/Profile/SettingsView.swift */; };
+		3D1A94172EA5B1A56B1F8C65 /* CookieCup/Views/Home/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA2B21AEB64C8BA6AB7EED /* CookieCup/Views/Home/HomeView.swift */; };
+		4775CC9B2D15EADB9C29227C /* CookieCup/Views/Cart/CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390758FF2013077389409106 /* CookieCup/Views/Cart/CartView.swift */; };
+		58F311665D6DA5E3EE4CF9FB /* CookieCup/Services/PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B5BDF254CE3ACAB5840C9B /* CookieCup/Services/PushNotifications.swift */; };
+		5A959EE6C5C6A420DA1D9D36 /* CookieCup/Resources/Fonts in Resources */ = {isa = PBXBuildFile; fileRef = A1B6D7F133DE716611A21DC5 /* CookieCup/Resources/Fonts */; };
+		71D112DC9B19B514A9F58368 /* CookieCup/Views/Profile/AddressSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98255DE924E769FB7B43ADD /* CookieCup/Views/Profile/AddressSettingsView.swift */; };
+		764595960F1CB125C566AB10 /* CookieCup/Views/Checkout/CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6C01CE2C950370A2A5AE3 /* CookieCup/Views/Checkout/CheckoutView.swift */; };
+		8FB54DE5797124DEE174A1CE /* CookieCup/App/RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5561C209C4A6D637E49852A4 /* CookieCup/App/RootView.swift */; };
+		A08A8A0FE1BEAE737BD1A4C6 /* CookieCup/Views/Favorites/FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080AB638562978449A3F0401 /* CookieCup/Views/Favorites/FavoritesView.swift */; };
+		A72C9309F44F1166678011AB /* CookieCup/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C983A7C2027AF3DD8D8425 /* CookieCup/Resources/Assets.xcassets */; };
+		A745E60B8A4BAF9A05DCCEB9 /* CookieCup/Localization/de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4339111B6E802E5A06D38ABD /* CookieCup/Localization/de.lproj */; };
+		A8C97DFF984620F20036B9F0 /* CookieCup/App/CookieCupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034BC773B98A6B2BB287B629 /* CookieCup/App/CookieCupApp.swift */; };
+		C050A31D13668CE446DFE9B8 /* CookieCup/Models/Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CEC9C213AE2BF818958F2 /* CookieCup/Models/Product.swift */; };
+		C414138224A13A52F694A3B2 /* CookieCup/Views/Profile/CardSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98635FB02F68BFC4F633FA46 /* CookieCup/Views/Profile/CardSettingsView.swift */; };
+		CC10A0000000000000000002 /* CookieCup/Resources/LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC10A0000000000000000001 /* CookieCup/Resources/LaunchScreen.storyboard */; };
+		CF9F09702EAD6BF6C6DF1C5E /* CookieCup/Localization/tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 11F728A21FE36BA92D41091C /* CookieCup/Localization/tr.lproj */; };
+		D1E126C35322DFB7E0ED8007 /* CookieCup/Views/Profile/ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680F2B9F62C6890EBD93E7E4 /* CookieCup/Views/Profile/ProfileView.swift */; };
+		D61E94CE992A3BB9B29A1163 /* CookieCup/Models/Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F55E7A80500E27E15B2B5B /* CookieCup/Models/Account.swift */; };
+		DD5A05FA453800B0370F9687 /* CookieCup/Components/ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4106A717732FA079CA409A /* CookieCup/Components/ProductCard.swift */; };
+		EA282611A4F07002183B0AF9 /* CookieCup/Services/APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2604632C1B8B7F31CB12647F /* CookieCup/Services/APIClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034BC773B98A6B2BB287B629 /* CookieCup/App/CookieCupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/App/CookieCupApp.swift; sourceTree = SOURCE_ROOT; };
+		080AB638562978449A3F0401 /* CookieCup/Views/Favorites/FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Favorites/FavoritesView.swift; sourceTree = SOURCE_ROOT; };
+		0F22B8F7533FCC3A130EE264 /* CookieCup/Views/Profile/AccountSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Profile/AccountSettingsView.swift; sourceTree = SOURCE_ROOT; };
+		0F4106A717732FA079CA409A /* CookieCup/Components/ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Components/ProductCard.swift; sourceTree = SOURCE_ROOT; };
+		11F728A21FE36BA92D41091C /* CookieCup/Localization/tr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CookieCup/Localization/tr.lproj; sourceTree = SOURCE_ROOT; };
+		1D3BF3379DA4AF796700BA18 /* CookieCup/Services/Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Services/Persistence.swift; sourceTree = SOURCE_ROOT; };
+		2604632C1B8B7F31CB12647F /* CookieCup/Services/APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Services/APIClient.swift; sourceTree = SOURCE_ROOT; };
+		2760F0D1CF80AEB3DAFB013B /* CookieCup/Localization/en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CookieCup/Localization/en.lproj; sourceTree = SOURCE_ROOT; };
+		3712F85F16CE8258C48AA7B0 /* CookieCup/Views/Profile/LegalSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Profile/LegalSettingsView.swift; sourceTree = SOURCE_ROOT; };
+		38A007151ABE87CC01A5B6E9 /* CookieCup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CookieCup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		390758FF2013077389409106 /* CookieCup/Views/Cart/CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Cart/CartView.swift; sourceTree = SOURCE_ROOT; };
+		4339111B6E802E5A06D38ABD /* CookieCup/Localization/de.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CookieCup/Localization/de.lproj; sourceTree = SOURCE_ROOT; };
+		4B0166B7F89D7E4226D27866 /* CookieCup/Views/Menu/MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Menu/MenuView.swift; sourceTree = SOURCE_ROOT; };
+		521DAF022BFC9F91074DB057 /* CookieCup/ViewModels/ShopStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/ViewModels/ShopStore.swift; sourceTree = SOURCE_ROOT; };
+		53B5BDF254CE3ACAB5840C9B /* CookieCup/Services/PushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Services/PushNotifications.swift; sourceTree = SOURCE_ROOT; };
+		5484EB6D5E134C5B298B5A0B /* CookieCup/Components/Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Components/Theme.swift; sourceTree = SOURCE_ROOT; };
+		5561C209C4A6D637E49852A4 /* CookieCup/App/RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/App/RootView.swift; sourceTree = SOURCE_ROOT; };
+		5C4CEC9C213AE2BF818958F2 /* CookieCup/Models/Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Models/Product.swift; sourceTree = SOURCE_ROOT; };
+		680F2B9F62C6890EBD93E7E4 /* CookieCup/Views/Profile/ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Profile/ProfileView.swift; sourceTree = SOURCE_ROOT; };
+		84DA2B21AEB64C8BA6AB7EED /* CookieCup/Views/Home/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Home/HomeView.swift; sourceTree = SOURCE_ROOT; };
+		875361BA7D827746609D6D43 /* CookieCup/Extensions/Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Extensions/Localization.swift; sourceTree = SOURCE_ROOT; };
+		8C30FF7185B944CE28BA98D4 /* CookieCup/Views/Product/ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Product/ProductDetail.swift; sourceTree = SOURCE_ROOT; };
+		98635FB02F68BFC4F633FA46 /* CookieCup/Views/Profile/CardSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Profile/CardSettingsView.swift; sourceTree = SOURCE_ROOT; };
+		A012EF75BFD5DC0F5FCE6A91 /* CookieCup/Data/Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Data/Catalog.swift; sourceTree = SOURCE_ROOT; };
+		A06FF134F599063B7ACDAE07 /* CookieCup/Views/Profile/NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Profile/NotificationsView.swift; sourceTree = SOURCE_ROOT; };
+		A1B6D7F133DE716611A21DC5 /* CookieCup/Resources/Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CookieCup/Resources/Fonts; sourceTree = SOURCE_ROOT; };
+		B1B6C01CE2C950370A2A5AE3 /* CookieCup/Views/Checkout/CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Checkout/CheckoutView.swift; sourceTree = SOURCE_ROOT; };
+		B1F55E7A80500E27E15B2B5B /* CookieCup/Models/Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Models/Account.swift; sourceTree = SOURCE_ROOT; };
+		B2C983A7C2027AF3DD8D8425 /* CookieCup/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CookieCup/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		BF660566A0E387A25630A604 /* CookieCup/Components/CachedProductImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Components/CachedProductImage.swift; sourceTree = SOURCE_ROOT; };
+		CC10A0000000000000000001 /* CookieCup/Resources/LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CookieCup/Resources/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		D1FD5FE9CD3C6A97A6E26ED3 /* CookieCup/Services/AccountStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Services/AccountStore.swift; sourceTree = SOURCE_ROOT; };
+		D66027EB02346B7547E96DB8 /* CookieCup/Views/Profile/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Profile/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		D98255DE924E769FB7B43ADD /* CookieCup/Views/Profile/AddressSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCup/Views/Profile/AddressSettingsView.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FCFB17C3E55E8A168D5907F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* CookieCup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64292B1C2B2E13EAD8788FC8 = {
+			isa = PBXGroup;
+			children = (
+				A06FF134F599063B7ACDAE07 /* CookieCup/Views/Profile/NotificationsView.swift */,
+				3712F85F16CE8258C48AA7B0 /* CookieCup/Views/Profile/LegalSettingsView.swift */,
+				53B5BDF254CE3ACAB5840C9B /* CookieCup/Services/PushNotifications.swift */,
+				BF660566A0E387A25630A604 /* CookieCup/Components/CachedProductImage.swift */,
+				2604632C1B8B7F31CB12647F /* CookieCup/Services/APIClient.swift */,
+				98635FB02F68BFC4F633FA46 /* CookieCup/Views/Profile/CardSettingsView.swift */,
+				D98255DE924E769FB7B43ADD /* CookieCup/Views/Profile/AddressSettingsView.swift */,
+				0F22B8F7533FCC3A130EE264 /* CookieCup/Views/Profile/AccountSettingsView.swift */,
+				D66027EB02346B7547E96DB8 /* CookieCup/Views/Profile/SettingsView.swift */,
+				D1FD5FE9CD3C6A97A6E26ED3 /* CookieCup/Services/AccountStore.swift */,
+				B1F55E7A80500E27E15B2B5B /* CookieCup/Models/Account.swift */,
+				CC10A0000000000000000001 /* CookieCup/Resources/LaunchScreen.storyboard */,
+				A1B6D7F133DE716611A21DC5 /* CookieCup/Resources/Fonts */,
+				034BC773B98A6B2BB287B629 /* CookieCup/App/CookieCupApp.swift */,
+				5561C209C4A6D637E49852A4 /* CookieCup/App/RootView.swift */,
+				0F4106A717732FA079CA409A /* CookieCup/Components/ProductCard.swift */,
+				5484EB6D5E134C5B298B5A0B /* CookieCup/Components/Theme.swift */,
+				A012EF75BFD5DC0F5FCE6A91 /* CookieCup/Data/Catalog.swift */,
+				875361BA7D827746609D6D43 /* CookieCup/Extensions/Localization.swift */,
+				5C4CEC9C213AE2BF818958F2 /* CookieCup/Models/Product.swift */,
+				1D3BF3379DA4AF796700BA18 /* CookieCup/Services/Persistence.swift */,
+				521DAF022BFC9F91074DB057 /* CookieCup/ViewModels/ShopStore.swift */,
+				390758FF2013077389409106 /* CookieCup/Views/Cart/CartView.swift */,
+				B1B6C01CE2C950370A2A5AE3 /* CookieCup/Views/Checkout/CheckoutView.swift */,
+				080AB638562978449A3F0401 /* CookieCup/Views/Favorites/FavoritesView.swift */,
+				84DA2B21AEB64C8BA6AB7EED /* CookieCup/Views/Home/HomeView.swift */,
+				4B0166B7F89D7E4226D27866 /* CookieCup/Views/Menu/MenuView.swift */,
+				8C30FF7185B944CE28BA98D4 /* CookieCup/Views/Product/ProductDetail.swift */,
+				680F2B9F62C6890EBD93E7E4 /* CookieCup/Views/Profile/ProfileView.swift */,
+				B2C983A7C2027AF3DD8D8425 /* CookieCup/Resources/Assets.xcassets */,
+				2760F0D1CF80AEB3DAFB013B /* CookieCup/Localization/en.lproj */,
+				11F728A21FE36BA92D41091C /* CookieCup/Localization/tr.lproj */,
+				4339111B6E802E5A06D38ABD /* CookieCup/Localization/de.lproj */,
+				4FCFB17C3E55E8A168D5907F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* CookieCup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92ECD82D0CEE2963AAC52780 /* Build configuration list for PBXNativeTarget "CookieCup" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookieCup;
+			productName = CookieCup;
+			productReference = 38A007151ABE87CC01A5B6E9 /* CookieCup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 0112DAE3F84CB4DF5179BE01 /* Build configuration list for PBXProject "CookieCup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				tr,
+				de,
+				Base,
+			);
+			mainGroup = 64292B1C2B2E13EAD8788FC8;
+			productRefGroup = 4FCFB17C3E55E8A168D5907F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* CookieCup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC10A0000000000000000002 /* CookieCup/Resources/LaunchScreen.storyboard in Resources */,
+				5A959EE6C5C6A420DA1D9D36 /* CookieCup/Resources/Fonts in Resources */,
+				A72C9309F44F1166678011AB /* CookieCup/Resources/Assets.xcassets in Resources */,
+				36E335C4DFB4FA7A633922FC /* CookieCup/Localization/en.lproj in Resources */,
+				CF9F09702EAD6BF6C6DF1C5E /* CookieCup/Localization/tr.lproj in Resources */,
+				A745E60B8A4BAF9A05DCCEB9 /* CookieCup/Localization/de.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2868CF08DE428234E62A59A8 /* CookieCup/Views/Profile/NotificationsView.swift in Sources */,
+				2913C4135F3619FFD1DFF13F /* CookieCup/Views/Profile/LegalSettingsView.swift in Sources */,
+				58F311665D6DA5E3EE4CF9FB /* CookieCup/Services/PushNotifications.swift in Sources */,
+				122F6196FC67908CF19AEC81 /* CookieCup/Components/CachedProductImage.swift in Sources */,
+				EA282611A4F07002183B0AF9 /* CookieCup/Services/APIClient.swift in Sources */,
+				C414138224A13A52F694A3B2 /* CookieCup/Views/Profile/CardSettingsView.swift in Sources */,
+				71D112DC9B19B514A9F58368 /* CookieCup/Views/Profile/AddressSettingsView.swift in Sources */,
+				0CBD9E9F28156A7756FA8B7B /* CookieCup/Views/Profile/AccountSettingsView.swift in Sources */,
+				3B94700A8482C67FEB6F5602 /* CookieCup/Views/Profile/SettingsView.swift in Sources */,
+				005540C0D703A09706F1A78E /* CookieCup/Services/AccountStore.swift in Sources */,
+				D61E94CE992A3BB9B29A1163 /* CookieCup/Models/Account.swift in Sources */,
+				A8C97DFF984620F20036B9F0 /* CookieCup/App/CookieCupApp.swift in Sources */,
+				8FB54DE5797124DEE174A1CE /* CookieCup/App/RootView.swift in Sources */,
+				DD5A05FA453800B0370F9687 /* CookieCup/Components/ProductCard.swift in Sources */,
+				1924A51E4E8617B4380B442C /* CookieCup/Components/Theme.swift in Sources */,
+				339AE668DECE8AE50A39BE81 /* CookieCup/Data/Catalog.swift in Sources */,
+				02BF2CB2EA0029C1718CA78B /* CookieCup/Extensions/Localization.swift in Sources */,
+				C050A31D13668CE446DFE9B8 /* CookieCup/Models/Product.swift in Sources */,
+				082146442C264EFF7FD7E8DD /* CookieCup/Services/Persistence.swift in Sources */,
+				1FDA810838B34E8C4A977697 /* CookieCup/ViewModels/ShopStore.swift in Sources */,
+				4775CC9B2D15EADB9C29227C /* CookieCup/Views/Cart/CartView.swift in Sources */,
+				764595960F1CB125C566AB10 /* CookieCup/Views/Checkout/CheckoutView.swift in Sources */,
+				A08A8A0FE1BEAE737BD1A4C6 /* CookieCup/Views/Favorites/FavoritesView.swift in Sources */,
+				3D1A94172EA5B1A56B1F8C65 /* CookieCup/Views/Home/HomeView.swift in Sources */,
+				112980041265E5CC6B6B58B2 /* CookieCup/Views/Menu/MenuView.swift in Sources */,
+				25DE92FB3DB827CBBF96C907 /* CookieCup/Views/Product/ProductDetail.swift in Sources */,
+				D1E126C35322DFB7E0ED8007 /* CookieCup/Views/Profile/ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CookieCupIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 936UGY992F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CookieCup;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracsoft.cookiecup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = CookieCupIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 936UGY992F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CookieCup;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miracsoft.cookiecup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0112DAE3F84CB4DF5179BE01 /* Build configuration list for PBXProject "CookieCup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92ECD82D0CEE2963AAC52780 /* Build configuration list for PBXNativeTarget "CookieCup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
